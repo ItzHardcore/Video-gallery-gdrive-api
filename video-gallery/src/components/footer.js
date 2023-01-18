@@ -80,7 +80,7 @@ function Footer() {
       >
         © 2023 Copyright Todos os direitos reservados <br></br>
         <a className="text-white" href="https://mdbootstrap.com/">
-          MarianaMoura.pt
+          MargaridaMimo.pt
         </a>
       </div>
     </MDBFooter>

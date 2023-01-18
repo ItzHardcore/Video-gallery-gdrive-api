@@ -23,7 +23,7 @@ export default function MyNavbar() {
     <MDBNavbar expand="lg" light bgColor="light">
       <MDBContainer fluid>
         <MDBNavbarBrand className="ms-5" href="#">
-          Mariana Moura
+          Margarida Mimo
         </MDBNavbarBrand>
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"
