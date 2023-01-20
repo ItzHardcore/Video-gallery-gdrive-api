@@ -1,4 +1,4 @@
-import * as videos from "./videos";
+import FileList from "./FileList";
 
 function Content() {
   return (
@@ -34,7 +34,6 @@ function Content() {
           </p>
         </div>
       </div>
-
       <div style={{ marginTop: "5%" }} className="row">
         <div className="col-md">
           <p>
@@ -66,7 +65,6 @@ function Content() {
           ></img>
         </div>
       </div>
-
       <hr className="hr hr-blurry" />
       <h2
         id="gallery"
@@ -74,28 +72,7 @@ function Content() {
       >
         Video Gallery
       </h2>
-
-      <div className="row ">
-        <div
-          className="col-md-4"
-          style={{ marginBottom: "5%", textAlign: "-webkit-center" }}
-        >
-          <div className="card" style={{ width: "95%" }}>
-            <div className="bg-image " data-mdb-ripple-color="light">
-              <iframe
-                className="iframe-container"
-                src={videos.video1.gdrive_url}
-                allow="autoplay"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">{videos.video1.title}</h5>
-              <p className="card-text">{videos.video1.date}</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <FileList></FileList>
 
       <hr className="hr hr-blurry" />
       <h2 id="cv" className="h1-responsive font-weight-bold text-center my-4">
@@ -119,9 +96,7 @@ function Content() {
           </a>
         </button>
       </div>
-
       <hr className="hr hr-blurry" />
-
       <section class="mb-4">
         <h2
           id="contacts"
