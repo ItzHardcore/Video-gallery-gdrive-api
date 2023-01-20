@@ -17,7 +17,6 @@ function FileList() {
         },
       })
       .then((response) => {
-        console.log(key);
         setFileIds(response.data.files.map((file) => file.id));
       })
       .catch((error) => {
