@@ -5,7 +5,7 @@
 }
 .s-soft{ 
  position: fixed;
- top: 100px ;
+ top: 30% ;
  left: 10;
  z-index: 1000; transition:all linear 0.2s ;
 }
@@ -36,6 +36,7 @@ transition:all linear 0.2s ;
 }
 .facebook {background-color:  #3b5999;}
 .twitter {background-color: #3AAFD6;}
+.tiktok {background-color: #161616;}
 .print {background-color: #de3c7d;}
 .pinterest{background-color: #BD081C;}
 .linkedin{background-color: #0e76a8 ;}

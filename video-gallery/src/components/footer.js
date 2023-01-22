@@ -64,7 +64,7 @@ function Footer() {
 
           <MDBBtn
             floating
-            className="m-1"
+            className="m-1 pulse"
             style={{ backgroundColor: "#333333" }}
             href="#!"
             role="button"
