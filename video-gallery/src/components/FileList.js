@@ -25,7 +25,7 @@ function FileList() {
   }, [folderId]);
 
   return (
-    <div className="row ">
+    <div className='row '>
       {fileIds.map((fileId) => (
         <VideoPreview key={fileId} fileId={fileId}></VideoPreview>
       ))}

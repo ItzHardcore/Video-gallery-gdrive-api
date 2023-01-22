@@ -8,22 +8,20 @@ function FloatingApp() {
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
       ></link>
       <div class="s-soft">
-        {/* <a href="/" class="s-item facebook">
-          <span class="fa fa-facebook"></span>
-        </a>
-        <a href="/" class="s-item twitter">
-          <span class="fa fa-twitter"></span>
-        </a>
-        <a href="/" class="s-item pinterest">
-          <span class="fa fa-pinterest"></span>
-        </a> */}
-        <a href="/" class="s-item tiktok">
+        <a href="https://www.tiktok.com/@margaridamimo" class="s-item tiktok">
           <span class="fa fa-tiktok"></span>
         </a>
-        <a href="/" class="s-item linkedin">
+        <a
+          href="https://www.linkedin.com/in/margarida-mimo-b49650233/"
+          class="s-item linkedin"
+        >
           <span class="fa fa-linkedin"></span>
         </a>
-        <a href="/" class="s-item instagram">
+        <a
+          href="https://www.instagram.com/margaridag.mimo/?ig_mid=2FFDE7EB-8B10-45E8-9F73-906322B089B6&utm_source=igweb&fall_back_to_web=false"
+          blank
+          class="s-item instagram"
+        >
           <span class="fa fa-instagram"></span>
         </a>
       </div>

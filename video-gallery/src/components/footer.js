@@ -16,60 +16,32 @@ function Footer() {
           <MDBBtn
             floating
             className="m-1"
-            style={{ backgroundColor: "#3b5998" }}
-            href="#!"
+            style={{ backgroundColor: "#333333" }}
+            target="_blank"
+            href="https://www.tiktok.com/@margaridamimo"
             role="button"
           >
-            <MDBIcon fab icon="facebook-f" />
+            <MDBIcon fab icon="tiktok" />
           </MDBBtn>
-
           <MDBBtn
             floating
             className="m-1"
-            style={{ backgroundColor: "#55acee" }}
-            href="#!"
+            style={{ backgroundColor: "#0082ca" }}
+            target="_blank"
+            href="https://www.linkedin.com/in/margarida-mimo-b49650233/"
             role="button"
           >
-            <MDBIcon fab icon="twitter" />
-          </MDBBtn>
-
-          <MDBBtn
-            floating
-            className="m-1"
-            style={{ backgroundColor: "#dd4b39" }}
-            href="#!"
-            role="button"
-          >
-            <MDBIcon fab icon="google" />
+            <MDBIcon fab icon="linkedin-in" />
           </MDBBtn>
           <MDBBtn
             floating
             className="m-1"
             style={{ backgroundColor: "#ac2bac" }}
-            href="#!"
+            target="_blank"
+            href="https://www.instagram.com/margaridag.mimo/?ig_mid=2FFDE7EB-8B10-45E8-9F73-906322B089B6&utm_source=igweb&fall_back_to_web=false"
             role="button"
           >
             <MDBIcon fab icon="instagram" />
-          </MDBBtn>
-
-          <MDBBtn
-            floating
-            className="m-1"
-            style={{ backgroundColor: "#0082ca" }}
-            href="#!"
-            role="button"
-          >
-            <MDBIcon fab icon="linkedin-in" />
-          </MDBBtn>
-
-          <MDBBtn
-            floating
-            className="m-1 pulse"
-            style={{ backgroundColor: "#333333" }}
-            href="#!"
-            role="button"
-          >
-            <MDBIcon fab icon="github" />
           </MDBBtn>
         </section>
       </MDBContainer>
