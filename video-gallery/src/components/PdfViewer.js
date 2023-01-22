@@ -11,10 +11,7 @@ function Viewer() {
 
   return (
     <div>
-      <Document
-        file="./video-gallery/CV-BrunoSilva.pdf"
-        onLoadSuccess={onDocumentLoadSuccess}
-      ></Document>
+      <Document file='./video-gallery/Curriculo_Margarida_Mimo.pdf' onLoadSuccess={onDocumentLoadSuccess}></Document>
     </div>
   );
 }

@@ -17,7 +17,6 @@ function FileList() {
         },
       })
       .then((response) => {
-        console.log(key);
         setFileIds(response.data.files.map((file) => file.id));
       })
       .catch((error) => {
@@ -26,7 +25,7 @@ function FileList() {
   }, [folderId]);
 
   return (
-    <div className="row ">
+    <div className='row '>
       {fileIds.map((fileId) => (
         <VideoPreview key={fileId} fileId={fileId}></VideoPreview>
       ))}
