@@ -2,73 +2,131 @@ import FileList from "./FileList";
 
 function Content() {
   return (
-    <div style={{ marginTop: "5%" }} className='container'>
-      <div className='row'>
-        <div className='col-md'>
-          <img className='img-fluid' src='/Foto_2_Margarida_Mimo.png'></img>
+    <div style={{ marginTop: "5%" }} className="container">
+      <div className="row pt-4 pb-4">
+        <div className="col-md text-center">
+          <img
+            style={{ width: "80%" }}
+            className="img-fluid"
+            src="/Foto_2_Margarida_Mimo.png"
+            alt="Margarida Mimo"
+          ></img>
         </div>
-        <div className='col-md-1'></div>
-        <div className='col-md'>
+
+        <div className="col-md align-self-center">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum metus orci, a consectetur purus auctor id. Cras laoreet velit vel etium, rutrum libero eu, malesuada dolor. Maecenas dictum velit libero, a egestas odio dictum id. Praesent euismod massa ut aliquam placerat. Maecenas convallis nibh vitae venenatis iaculis. Suspendisse
-            ullamcorper, urna non ornare commodo, tortor elit pharetra leo, eu aliquam ligula urna id ex. Sed malesuada dolor mi, quis rhoncus dolor porta ac. Quisque tristique vehicula tincidunt. Donec placerat quis erat nec vehicula. In ornare egestas ligula vel aliquam. Donec sed accumsan est. Etiam et est vitae lorem auctor aliquet. Vivamus tristique
-            egestas ultrices. Maecenas libero magna, scelerisque consequat erat ut, faucibus faucibus sem. Vestibulum imperdiet mollis tincidunt. Donec bibendum nisi vitae purus feugiat fermentum. Praesent a turpis vel purus facilisis pulvinar. Proin posuere facilisis magna, eget feugiat quam hendrerit nec. Sed mollis nisl semper ligula tincidunt
-            sollicitudin. In aliquam ex ut interdum sagittis. Cras interdum lorem mauris, feugiat facilisis tellus pulvinar et. Donec dignissim tincidunt erat.>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            elementum metus orci, a consectetur purus auctor id. Cras laoreet
+            velit vel etium, rutrum libero eu, malesuada dolor. Maecenas dictum
+            velit libero, a egestas odio dictum id. Praesent euismod massa ut
+            aliquam placerat. Maecenas convallis nibh vitae venenatis iaculis.
+            Suspendisse ullamcorper, urna non ornare commodo, tortor elit
+            pharetra leo, eu aliquam ligula urna id ex. Sed malesuada dolor mi,
+            quis rhoncus dolor porta ac. Quisque tristique vehicula tincidunt.
+            Donec placerat quis erat nec vehicula. In ornare egestas ligula vel
+            aliquam. Donec sed accumsan est. Etiam et est vitae lorem auctor
+            aliquet. Vivamus tristique egestas ultrices. Maecenas libero magna,
+            scelerisque consequat erat ut, faucibus faucibus sem. Vestibulum
+            imperdiet mollis tincidunt. Donec bibendum nisi vitae purus feugiat
+            fermentum. Praesent a turpis vel purus facilisis pulvinar. Proin
+            posuere facilisis magna, eget feugiat quam hendrerit nec. Sed mollis
+            nisl semper ligula tincidunt sollicitudin. In aliquam ex ut interdum
+            sagittis. Cras interdum lorem mauris, feugiat facilisis tellus
+            pulvinar et. Donec dignissim tincidunt erat.>
           </p>
         </div>
       </div>
-      <div style={{ marginTop: "5%" }} className='row'>
-        <div className='col-md'>
+      <div className="row  pt-4 pb-5">
+        <div className="col-md align-self-center">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum metus orci, a consectetur purus auctor id. Cras laoreet velit vel etium, rutrum libero eu, malesuada dolor. Maecenas dictum velit libero, a egestas odio dictum id. Praesent euismod massa ut aliquam placerat. Maecenas convallis nibh vitae venenatis iaculis. Suspendisse
-            ullamcorper, urna non ornare commodo, tortor elit pharetra leo, eu aliquam ligula urna id ex. Sed malesuada dolor mi, quis rhoncus dolor porta ac. Quisque tristique vehicula tincidunt. Donec placerat quis erat nec vehicula. In ornare egestas ligula vel aliquam. Donec sed accumsan est. Etiam et est vitae lorem auctor aliquet. Vivamus tristique
-            egestas ultrices. Maecenas libero magna, scelerisque consequat erat ut, faucibus faucibus sem. Vestibulum imperdiet mollis tincidunt. Donec bibendum nisi vitae purus feugiat fermentum. Praesent a turpis vel purus facilisis pulvinar. Proin posuere facilisis magna, eget feugiat quam hendrerit nec. Sed mollis nisl semper ligula tincidunt
-            sollicitudin. In aliquam ex ut interdum sagittis. Cras interdum lorem mauris, feugiat facilisis tellus pulvinar et. Donec dignissim tincidunt erat.>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            elementum metus orci, a consectetur purus auctor id. Cras laoreet
+            velit vel etium, rutrum libero eu, malesuada dolor. Maecenas dictum
+            velit libero, a egestas odio dictum id. Praesent euismod massa ut
+            aliquam placerat. Maecenas convallis nibh vitae venenatis iaculis.
+            Suspendisse ullamcorper, urna non ornare commodo, tortor elit
+            pharetra leo, eu aliquam ligula urna id ex. Sed malesuada dolor mi,
+            quis rhoncus dolor porta ac. Quisque tristique vehicula tincidunt.
+            Donec placerat quis erat nec vehicula. In ornare egestas ligula vel
+            aliquam. Donec sed accumsan est. Etiam et est vitae lorem auctor
+            aliquet. Vivamus tristique egestas ultrices. Maecenas libero magna,
+            scelerisque consequat erat ut, faucibus faucibus sem. Vestibulum
+            imperdiet mollis tincidunt. Donec bibendum nisi vitae purus feugiat
+            fermentum. Praesent a turpis vel purus facilisis pulvinar. Proin
+            posuere facilisis magna, eget feugiat quam hendrerit nec. Sed mollis
+            nisl semper ligula tincidunt sollicitudin. In aliquam ex ut interdum
+            sagittis. Cras interdum lorem mauris, feugiat facilisis tellus
+            pulvinar et. Donec dignissim tincidunt erat.>
           </p>
         </div>
-        <div className='col-md-1'></div>
-        <div className='col-md'>
-          <img className='img-fluid' src='/Foto_1_Margarida_Mimo.png'></img>
+
+        <div className="col-md text-center">
+          <img
+            style={{ width: "80%" }}
+            className="img-fluid"
+            src="/Foto_1_Margarida_Mimo.png"
+            alt="Margarida Mimo"
+          ></img>
         </div>
       </div>
-      <hr className='hr hr-blurry' />
-      <h2 id='gallery' className='h1-responsive font-weight-bold text-center my-4'>
+      <hr className="hr hr-blurry" />
+      <h2
+        id="gallery"
+        className="h1-responsive font-weight-bold text-center my-4"
+      >
         Video Gallery
       </h2>
       <FileList></FileList>
 
-      <hr className='hr hr-blurry' />
-      <h2 id='cv' className='h1-responsive font-weight-bold text-center my-4'>
+      <hr className="hr hr-blurry" />
+      <h2 id="cv" className="h1-responsive font-weight-bold text-center my-4">
         Curriculum Vitae
       </h2>
-      <div className='text-center' style={{ height: "90vh" }}>
-        <iframe className='my-2' src='/Curriculo_Margarida_Mimo.pdf' height='90%' width='100%'></iframe>
-
-        <button type='button' className='btn btn-primary btn-lg'>
-          <a className='unstyled' href='/Curriculo_Margarida_Mimo.pdf' download='CV_Bruno.pdf'>
-            <i class='fa fa-download'></i> Download
-          </a>
-        </button>
+      <div className="section text-center pb-5">
+        <iframe
+          title="Curriculum Vitae"
+          style={{ height: "80vh" }}
+          className="my-2"
+          src="/Curriculo_Margarida_Mimo.pdf"
+          width="100%"
+        ></iframe>
       </div>
-      <hr className='hr hr-blurry' />
-      <section class='mb-4'>
-        <h2 id='contacts' class='h1-responsive font-weight-bold text-center my-4'>
+      <div className="pb-5 text-center">
+        <a
+          className="btn-primary btn-lg "
+          href="/Curriculo_Margarida_Mimo.pdf"
+          download="CV_Bruno.pdf"
+        >
+          <i class="fa fa-download"></i> DOWNLOAD
+        </a>
+      </div>
+
+      <hr className="hr hr-blurry" />
+      <section class="mb-4">
+        <h2
+          id="contacts"
+          class="h1-responsive font-weight-bold text-center my-4"
+        >
           Contactos
         </h2>
 
-        <p class='text-center w-responsive mx-auto mb-5'>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+        <p class="text-center w-responsive mx-auto mb-5">
+          Do you have any questions? Please do not hesitate to contact us
+          directly. Our team will come back to you within a matter of hours to
+          help you.
+        </p>
 
-        <div class='row'>
-          <div class='col-md-4 text-center'>
-            <i class='fas fa-map-marker-alt mt-4 fa-2x'></i>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <i class="fas fa-map-marker-alt mt-4 fa-2x"></i>
             <p>Lisbon, Portugal</p>
           </div>
-          <div class='col-md-4 text-center'>
-            <i class='fas fa-phone mt-4 fa-2x'></i>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-phone mt-4 fa-2x"></i>
             <p>+351 934 531 900</p>
           </div>
-          <div class='col-md-4 text-center'>
-            <i class='fas fa-envelope mt-4 fa-2x'></i>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-envelope mt-4 fa-2x"></i>
             <p>margaridagmimo@gmail.com</p>
           </div>
         </div>

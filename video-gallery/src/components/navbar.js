@@ -8,11 +8,6 @@ import {
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
-  MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
   MDBCollapse,
 } from "mdb-react-ui-kit";
 
@@ -20,7 +15,7 @@ export default function MyNavbar() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" light bgColor="light">
+    <MDBNavbar expand="lg" light bgColor="light" className="fixed-top">
       <MDBContainer fluid>
         <MDBNavbarBrand className="ms-5" href="#">
           Margarida Mimo
@@ -36,13 +31,13 @@ export default function MyNavbar() {
 
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className="justify-content-end me-5 mb-2 mb-lg-0">
-            <MDBNavbarItem>
+            <MDBNavbarItem className="ms-2 me-2">
               <MDBNavbarLink href="#gallery">Galeria</MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem>
+            <MDBNavbarItem className="ms-2 me-2">
               <MDBNavbarLink href="#cv">CV</MDBNavbarLink>
             </MDBNavbarItem>
-            <MDBNavbarItem>
+            <MDBNavbarItem className="ms-2 me-2">
               <MDBNavbarLink href="#contacts">Contactos</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>

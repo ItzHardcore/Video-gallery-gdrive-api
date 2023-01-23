@@ -5,7 +5,6 @@
 .s-soft{ 
  position: fixed;
  top: 30% ;
- left: 10;
  z-index: 1000; transition:all linear 0.2s ;
 }
 .s-soft a:first-child {
@@ -63,4 +62,10 @@
 .s-item:active,
 .s-item:visited {
   color: white !important;
+}
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
 }

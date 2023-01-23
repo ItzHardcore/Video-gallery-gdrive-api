@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-  MDBIcon,
-  MDBBtn,
-} from "mdb-react-ui-kit";
+import { MDBFooter, MDBContainer, MDBIcon, MDBBtn } from "mdb-react-ui-kit";
 
 function Footer() {
   return (
@@ -16,7 +9,7 @@ function Footer() {
           <MDBBtn
             floating
             className="m-1"
-            style={{ backgroundColor: "#333333" }}
+            style={{ backgroundColor: "rgb(22 22 22)" }}
             target="_blank"
             href="https://www.tiktok.com/@margaridamimo"
             role="button"
@@ -51,7 +44,7 @@ function Footer() {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
         © 2023 Copyright Todos os direitos reservados <br></br>
-        <a className="text-white" href="https://mdbootstrap.com/">
+        <a className="text-white" href="https://margaridamimo.pt/">
           MargaridaMimo.pt
         </a>
       </div>
