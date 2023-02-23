@@ -6,63 +6,47 @@ function Content() {
       <div className="row pt-4 pb-4">
         <div className="col-md text-center">
           <img
-            style={{ width: "80%" }}
+            style={{ width: "70%" }}
             className="img-fluid"
             src="/Foto_2_Margarida_Mimo.png"
             alt="Margarida Mimo"
           ></img>
         </div>
 
-        <div className="col-md align-self-center">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            elementum metus orci, a consectetur purus auctor id. Cras laoreet
-            velit vel etium, rutrum libero eu, malesuada dolor. Maecenas dictum
-            velit libero, a egestas odio dictum id. Praesent euismod massa ut
-            aliquam placerat. Maecenas convallis nibh vitae venenatis iaculis.
-            Suspendisse ullamcorper, urna non ornare commodo, tortor elit
-            pharetra leo, eu aliquam ligula urna id ex. Sed malesuada dolor mi,
-            quis rhoncus dolor porta ac. Quisque tristique vehicula tincidunt.
-            Donec placerat quis erat nec vehicula. In ornare egestas ligula vel
-            aliquam. Donec sed accumsan est. Etiam et est vitae lorem auctor
-            aliquet. Vivamus tristique egestas ultrices. Maecenas libero magna,
-            scelerisque consequat erat ut, faucibus faucibus sem. Vestibulum
-            imperdiet mollis tincidunt. Donec bibendum nisi vitae purus feugiat
-            fermentum. Praesent a turpis vel purus facilisis pulvinar. Proin
-            posuere facilisis magna, eget feugiat quam hendrerit nec. Sed mollis
-            nisl semper ligula tincidunt sollicitudin. In aliquam ex ut interdum
-            sagittis. Cras interdum lorem mauris, feugiat facilisis tellus
-            pulvinar et. Donec dignissim tincidunt erat.>
-          </p>
+        <div
+          className="col-md align-self-center"
+          style={{ textAlignLast: "center" }}
+        >
+          <h2 style={{ marginTop: "50px" }}>Olá, sou a Margarida Mimo!</h2>
         </div>
       </div>
       <div className="row  pt-4 pb-5">
         <div className="col-md align-self-center">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            elementum metus orci, a consectetur purus auctor id. Cras laoreet
-            velit vel etium, rutrum libero eu, malesuada dolor. Maecenas dictum
-            velit libero, a egestas odio dictum id. Praesent euismod massa ut
-            aliquam placerat. Maecenas convallis nibh vitae venenatis iaculis.
-            Suspendisse ullamcorper, urna non ornare commodo, tortor elit
-            pharetra leo, eu aliquam ligula urna id ex. Sed malesuada dolor mi,
-            quis rhoncus dolor porta ac. Quisque tristique vehicula tincidunt.
-            Donec placerat quis erat nec vehicula. In ornare egestas ligula vel
-            aliquam. Donec sed accumsan est. Etiam et est vitae lorem auctor
-            aliquet. Vivamus tristique egestas ultrices. Maecenas libero magna,
-            scelerisque consequat erat ut, faucibus faucibus sem. Vestibulum
-            imperdiet mollis tincidunt. Donec bibendum nisi vitae purus feugiat
-            fermentum. Praesent a turpis vel purus facilisis pulvinar. Proin
-            posuere facilisis magna, eget feugiat quam hendrerit nec. Sed mollis
-            nisl semper ligula tincidunt sollicitudin. In aliquam ex ut interdum
-            sagittis. Cras interdum lorem mauris, feugiat facilisis tellus
-            pulvinar et. Donec dignissim tincidunt erat.>
-          </p>
+          <h6
+            style={{
+              marginBottom: "30px",
+              textAlign: "justify",
+              lineHeight: "40px",
+            }}
+          >
+            Tenho 24 anos e desde que me lembro sou apaixonada por comunicar.
+            <br />
+            Creio que os meus pontos forte são a espontaneidade e a simpatia. Os
+            dois em simultâneo fazem com que não tenha grande dificuldade na
+            abordagem com as pessoas e com que a interação seja natural.
+            <br /> Há quem lhe chame “muita lata”, eu prefiro chamar carisma.
+            <br /> Tirei o curso de Apresentadores de Televisão e Rádio na Etic,
+            e estou em busca do sonho, tenho muita vontade de aprender e
+            explorar ambas as áreas.
+            <br /> A confiança que sinto com um microfone na mão, o entusiasmo
+            na minha voz e a alegria que me preenche fazem-me acreditar que este
+            é o meu lugar.
+          </h6>
         </div>
 
         <div className="col-md text-center">
           <img
-            style={{ width: "80%" }}
+            style={{ width: "60%" }}
             className="img-fluid"
             src="/Foto_1_Margarida_Mimo.png"
             alt="Margarida Mimo"
